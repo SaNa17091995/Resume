@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saravana Nambi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Experience</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Saravana Nambi. K</h1>
+        <h2>Graphic Designer | System Administrator</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showwork()">Experience</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Experience</h1>
+        <section>
+            <h3>AEO Logic Tech.</h3>
+            <h3>Project Engineer</h3>
+            <h5>2021 - 2025</h5>
+            <p>
+                Provided technical support for a suite of software applications, resolving over 150 customer inquiries weekly via helpdesk tickets, chat, and phone. Diagnosed and troubleshot hardware and software issues, Developed and maintained comprehensive technical documentation and knowledge base articles, enhancing team efficiency and customer self-service options. Responded to customer queries via email, phone, and live chat, maintaining a first contact resolution rate of over 80%.
+            </p>
+            <section>
+                <h3>FoodPub</h3>
+            <h4>Graphic Designer cum System Administrator</h4>
+            <h5>2018 - 2021</h5>
+            <p>
+                Conceptualized and designed visually compelling graphicsfor branding, marketing, and advertising campaigns, resulting in a 25% increase in client engagement. Developed user-friendly layouts for websites and social media platforms, ensuring responsive design and optimal user experience. Managed multiple design projects simultaneously, meeting tight deadlines while maintaining high-quality standards. Worked with the marketing team to create promotional materials, including brochures, flyers, and digital ads, contributing to an overall 15% sales growth.
+            </p>
+            </section>
+            <h3>Skills</h3>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Illustrator</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Photoshop</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MS Office Suite</div>
+            </div>
+            <a href="https://drive.google.com/drive/u/8/folders/1ReteiBNffpnCXeEvFZzEIX2ML8bV26Um">
+            <button class="btn_one">Works</button>
+        </a>
+        <a href="CV.pdf">
+            <button class="btn_two">CV Download</button>
+        </a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About Me</h1>
+            <section>
+                <p>
+                    Dedicated and experienced System Administrator withover 4 years of expertise in managing and optimizing IT infrastructure. Proficient in network administration, system installation, and troubleshooting hardware issues and software issues.
+                </p>
+                <p>
+                    Creative and detail-oriented Graphic Designer with over 2 years of experience in developing visually engaging content across various platforms. Adept at transforming complex ideas into captivating designs using Adobe Creative Suite. Passionate about branding, typography, user experience.
+                </p>
+            </section>
+            <section>
+                <h2>Languages Known</h2>
+                <p>
+                    Tamil - Native
+                    English - Proficient
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact</h1>
+            <section>
+                <p>
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required><br>
+                        <textarea placeholder="Your Message" required rows="5"></textarea><br>
+                        <button class="btn_one">Send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            Edited By Saravana Nambi <br>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
