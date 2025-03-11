@@ -38,7 +38,7 @@ body {
     width:100vw;
     height:100vh;
     z-index:9;
-    position:fixed;
+    position: fixed;
     top:0;
 }
 #box div {
@@ -191,11 +191,12 @@ body {
     margin:8vh 0px;
 }
 #used div{
-    font-size:14px !important;
+    font-size:18px !important;
     display:inline-block;
     padding:8px 10px;
+    align-self: center;
     border:2px solid #fff;
-    margin:0px 10px;
+    margin:0px 120px;
     border-radius:50px;
 }
 #used:hover {
@@ -207,14 +208,25 @@ body {
 .container h1 {
     font-size:60px;
     text-decoration:underline;
+    text-align: center;
 }
 .container p {
+    width:auto;
+    height:auto;
+    text-align:justify;
     font-size:21px
 }
 .container h3 {
-    font: size 21px;
-    display: inline-table;
-    padding: 1px 0px;
+    column-rule-width: auto;
+    font-size:18px;
+    text-align: center;
+    text-spacing-trim: trim-all;
+}
+.container h2 {
+    column-rule-width: auto;
+    font-size:25px;
+    text-align: center;
+    text-spacing-trim: trim-all;
 }
 .btn_one {
     font-size:18px;
@@ -225,7 +237,7 @@ body {
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
-    margin:2vh 10px;
+    margin:2vh 300px;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
@@ -241,7 +253,7 @@ body {
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
-    margin:2vh 10px;
+    margin:2vh 300px;
     transition:0.4s ease-in-out;
 }
 .btn_two:hover {
